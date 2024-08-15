@@ -1,0 +1,120 @@
+/* CSS Syntax */
+
+/* Selector */
+selector {
+    property: value;
+}
+
+/* Multiple Selectors */
+selector1, selector2 {
+    property: value;
+}
+
+/* Class Selector */
+.classname {
+    property: value;
+}
+
+/* ID Selector */
+#idname {
+    property: value;
+}
+
+/* Element Selector */
+element {
+    property: value;
+}
+
+/* Descendant Selector */
+parent descendant {
+    property: value;
+}
+
+/* Child Selector */
+parent > child {
+    property: value;
+}
+
+/* Adjacent Sibling Selector */
+element1 + element2 {
+    property: value;
+}
+
+/* General Sibling Selector */
+element1 ~ element2 {
+    property: value;
+}
+
+/* Attribute Selector */
+[attribute] {
+    property: value;
+}
+
+/* Attribute Value Selector */
+[attribute="value"] {
+    property: value;
+}
+
+/* Pseudo-class */
+selector:pseudo-class {
+    property: value;
+}
+
+/* Pseudo-element */
+selector::pseudo-element {
+    property: value;
+}
+
+/* Media Query */
+@media screen and (max-width: 600px) {
+    selector {
+        property: value;
+    }
+}
+
+/* Keyframe Animation */
+@keyframes animationname {
+    0% {
+        property: value;
+    }
+    100% {
+        property: value;
+    }
+}
+
+/* Variable Declaration */
+:root {
+    --variable-name: value;
+}
+
+/* Variable Usage */
+selector {
+    property: var(--variable-name);
+}
+
+/* Import Statement */
+@import url('filename.css');
+
+/* Flexbox */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Grid */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/* Transition */
+.element {
+    transition: property duration timing-function delay;
+}
+
+/* Transform */
+.element {
+    transform: function(value);
+}
