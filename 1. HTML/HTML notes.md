@@ -31,12 +31,9 @@ HTML (HyperText Markup Language) is the standard language used to create and des
 
 | Attribute | Value | Description |
 | --- | --- | --- |
-| id | name | Sets a unique identifier for the tag can only be used once per document.
-<div id="unique-identifier">This is a div with an id</div> |
-| class | name | Sets a class for an HTML tag. It can be repeated throughout the document.
-<p class="highlight important">This is a paragraph with classes</p> |
-| style | CSS styles | Applies CSS properties directly to the specific HTML element.
-<span style="color: blue; font-weight: bold;">This is a span with inline style</span> |
+| id | name | Sets a unique identifier for the tag can only be used once per document.<div id="unique-identifier">This is a div with an id</div> |
+| class | name | Sets a class for an HTML tag. It can be repeated throughout the document.<p class="highlight important">This is a paragraph with classes</p> |
+| style | CSS styles | Applies CSS properties directly to the specific HTML element.<span style="color: blue; font-weight: bold;">This is a span with inline style</span> |
 
 **Identifier: The id attribute**
 
@@ -96,20 +93,14 @@ Other Attributes
 
 | Metadata Attribute | Value | Description |
 | --- | --- | --- |
-| title | mensaje | Mensaje mostrado en un tooltip al mover el ratón encima sobre un elemento.
-<p title="This is a tooltip">Hover over me to see the title tooltip</p> |
-| data-* | texto | Metadatos en la propia etiqueta. Se puede usar cualquier nombre con prefijo data-para  que contenga información, habitualmente orientada a utilizarse desde Javascript o CSS.
-<div data-user-id="123" data-role="admin">Custom data attributes</div> |
-| accesskey | atajo | Combinación de teclas que puede pulsar el usuario para activar el elemento.
-<a href="#" accesskey="h">Home (Press Alt + h)</a> |
+| title | mensaje | Mensaje mostrado en un tooltip al mover el ratón encima sobre un elemento.<p title="This is a tooltip">Hover over me to see the title tooltip</p> |
+| data-* | texto | Metadatos en la propia etiqueta. Se puede usar cualquier nombre con prefijo data-para  que contenga información, habitualmente orientada a utilizarse desde Javascript o CSS.<div data-user-id="123" data-role="admin">Custom data attributes</div> |
+| accesskey | atajo | Combinación de teclas que puede pulsar el usuario para activar el elemento.<a href="#" accesskey="h">Home (Press Alt + h)</a> |
 | Language attributes | Value | Description |
-| lang | idioma | Indica el idioma del contenido de la etiqueta HTML.
-<p lang="es">Hola, ¿cómo estás?</p> |
-| translate | yes | no | Indica si el contenido de la etiqueta se debería traducir o no.
-<p translate="no">Do not translate this text</p> |
+| lang | idioma | Indica el idioma del contenido de la etiqueta HTML.<p lang="es">Hola, ¿cómo estás?</p> |
+| translate | yes | no | Indica si el contenido de la etiqueta se debería traducir o no.<p translate="no">Do not translate this text</p> |
 | Other attributes | Value | Description |
-| dir | ltr | rtl | Establece la direccionalidad del texto (left to right o right to left).
-<p dir="rtl">This text will be right-to-left</p> |
+| dir | ltr | rtl | Establece la direccionalidad del texto (left to right o right to left).<p dir="rtl">This text will be right-to-left</p> |
 
 | Etiqueta obsoleta | Descripción | Alternativa |
 | --- | --- | --- |
