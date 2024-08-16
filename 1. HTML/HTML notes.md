@@ -1,9 +1,9 @@
 # HTML Basics
 
-## Table of Contents
+<details>
+<summary>Table of Contents</summary>
 
 - [HTML Basics](#html-basics)
-  - [Table of Contents](#table-of-contents)
   - [**What is HTML?**](#what-is-html)
   - [**Basic HTML structure**](#basic-html-structure)
   - [**Common Attributes**](#common-attributes)
@@ -29,6 +29,8 @@
       - [**Dividers `<div>`**](#dividers-div)
       - [**List of elements `<ul>` `<ol>`**](#list-of-elements-ul-ol)
       - [**Quotes and citations `<blockquote>`**](#quotes-and-citations-blockquote)
+
+</details>
   
 ## **What is HTML?**
 
@@ -347,6 +349,7 @@ A tag that contains a group of tags related in some way. Although it is not mand
   <p>This is a second paragraph.</p>
 </div>
 ```
+
 #### **Main Content `<main>`**
 
 The HTML `<main>` tag is a tag that allows us to group all the main content of a page. In principle, an HTML document should only have one `<main>` tag.
