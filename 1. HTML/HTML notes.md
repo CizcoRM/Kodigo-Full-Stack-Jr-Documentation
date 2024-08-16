@@ -5,8 +5,8 @@
 - [HTML Basics](#html-basics)
   - [Table of Contents](#table-of-contents)
   - [**What is HTML?**](#what-is-html)
-  - [**- Basic HTML structure**](#--basic-html-structure)
-  - [**- Common Attributes**](#--common-attributes)
+  - [**Basic HTML structure**](#basic-html-structure)
+  - [**Common Attributes**](#common-attributes)
     - [Identifier: The id attribute](#identifier-the-id-attribute)
     - [Classes: The class attribute](#classes-the-class-attribute)
     - [Inline Styles: The style attribute](#inline-styles-the-style-attribute)
@@ -29,14 +29,16 @@
       - [**Dividers `<div>`**](#dividers-div)
       - [**List of elements `<ul>` `<ol>`**](#list-of-elements-ul-ol)
       - [**Quotes and citations `<blockquote>`**](#quotes-and-citations-blockquote)
+  
 ## **What is HTML?**
 
 HTML (HyperText Markup Language) is the standard language used to create and design documents on the World Wide Web. **HTML uses a system of tags and attributes** to define different parts of the document, making it possible to format and display content in a structured and visually appealing way.
 
 ---
 
-- **Basic structure of an HTML tag**
+**Basic structure of an HTML tag**
 `<tag attribute="value"> content </tag>`
+
 - **Tags:** In HTML5 there's a specific set of predefined tags, these are enclosed within opening `<tag>` and closing tags `</tag>` .
 - **Attributes** determine specific information about the tag. The value is always enclosed in **double quotes**.
 
@@ -57,7 +59,7 @@ HTML (HyperText Markup Language) is the standard language used to create and des
 
     `<!-- This is a commentary -->`
 
-## **- Basic HTML structure**
+## **Basic HTML structure**
 
 The document structure is divided into **three parts.** **Document type `<**!DOCTYPE html>`. Then, we open the **`<html>`** tag that will contain two main parts: the document **header** **`<head>`** and the document **body** **`<body>`**.
 
@@ -80,7 +82,7 @@ The document structure is divided into **three parts.** **Document type `<**!DOC
 
 **`<body>`** All the visual elements of a page are located inside the tag.
 
-## **- Common Attributes**
+## **Common Attributes**
 
 | Attribute | Value | Description |
 | --- | --- | --- |
