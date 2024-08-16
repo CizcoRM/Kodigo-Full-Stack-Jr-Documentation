@@ -212,7 +212,7 @@ The `<meta>` tag is used in HTML to provide metadata about the document. Can inc
 | google | nositelinkssearchbox | Tells Google not to display the mini search box in the sitelinks. |
 | google | notranslate | Tells Google not to translate the page. |
 | robots | parameters | Tells a search engine robot whether or not to index the page. |
-| viewport | parámetros | Comportamiento de la región visible del navegador. Ver Responsive. |
+| viewport | parameters | Behavior of the visible region of the browser. Responsive. |
 
 | Parameters | Meaning |
 |------------|---------|
@@ -416,6 +416,7 @@ The `<div>` tag is a tag that is usually used to create a grouping of one or mor
 As much as possible, always try to avoid nesting HTML elements inside each other if it is not strictly necessary.
 
 There are other sementic tags that can be used instead of `<div>`:
+
 - `<section>`: Represents a section of a document.
 - `<article>`: Represents a self-contained composition in a document, page, application, or site.
 - `<header>`: Represents a container for introductory content or a set of navigational links.
@@ -423,7 +424,7 @@ There are other sementic tags that can be used instead of `<div>`:
 - `<aside>`: Represents a portion of a document whose content is only indirectly related to the document's main content.
 - `<nav>`: Represents a section of a page that links to other pages or to parts within the page.
 - `<main>`: Represents the main content of a document.
-- `<figure>`: Represents self-contained content, potentially with an optional caption, which is specified using the `<figcaption>` element. 
+- `<figure>`: Represents self-contained content, potentially with an optional caption, which is specified using the `<figcaption>` element.
 
 #### **List of elements**
 
@@ -450,5 +451,4 @@ The `<blockquote>` tag is used to indicate a quote or citation.
 <blockquote cite="https://example.com/quote">
   <p>This is a quote.</p>
 </blockquote>
-``` 
-
+```
