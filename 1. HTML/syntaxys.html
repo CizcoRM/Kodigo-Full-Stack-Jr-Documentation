@@ -2,15 +2,37 @@
 <!DOCTYPE html>
 <!-- Root HTML element -->
 <html lang="en">
+
   <!-- Head section containing metadata -->
-  <head>
-    <!-- Character encoding declaration -->
-    <meta charset="UTF-8" />
-    <!-- Viewport settings for responsive design -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Title of the document -->
-    <title>Document Title</title>
-  </head>
+<head>
+  <!-- The <title> element specifies a title for the HTML page (required in all HTML documents) -->
+  <title>My Web Page Title</title>
+
+  <!-- The <base> element specifies the base URL for all relative URLs in a document -->
+  <base href="https://www.example.com/">
+
+  <!-- The <link> element defines the relationship between the current document and an external resource -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- The <meta> element is used to specify character set, page description, keywords, author, and other metadata -->
+  <meta charset="UTF-8">
+  <meta name="description" content="This is an example web page">
+
+  <!-- The <style> element is used to define internal CSS -->
+  <style>
+      body {
+          font-family: Arial, sans-serif;
+      }
+  </style>
+
+  <!-- The <script> element is used to define client-side JavaScript -->
+  <script>
+      function greet() {
+          prompt("Hello, World!")
+      }
+  </script>
+</head>
+
 
   <!-- Body section containing the visible content -->
   <body>
