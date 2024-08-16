@@ -1,116 +1,64 @@
-<!-- DOCTYPE declaration for HTML5 -->
-<!DOCTYPE html>
-<!-- Root HTML element -->
-<html lang="en">
+<!DOCTYPE html> <!-- DOCTYPE declaration for HTML5 -->
+<html lang="en"> <!-- Root HTML element -->
 
-  <!-- Head section containing metadata -->
-<head>
-  <!-- The <title> element specifies a title for the HTML page (required in all HTML documents) -->
-  <title>My Web Page Title</title>
-
-  <!-- The <base> element specifies the base URL for all relative URLs in a document -->
-  <base href="https://www.example.com/">
-
-  <!-- The <link> element defines the relationship between the current document and an external resource -->
-  <link rel="stylesheet" href="styles.css">
-
-  <!-- The <meta> element is used to specify character set, page description, keywords, author, and other metadata -->
-  <meta charset="UTF-8">
+<head>   <!-- Head section containing metadata -->
+  <title>My Web Page Title</title>   <!-- The <title> element specifies a title for the HTML page (required in all HTML documents) -->
+  <base href="https://www.example.com/">   <!-- The <base> element specifies the base URL for all relative URLs in a document -->
+  <link rel="stylesheet" href="styles.css">   <!-- The <link> element defines the relationship between the current document and an external resource -->
+  <meta charset="UTF-8"> <!-- The <meta> element is used to specify character set, page description, keywords, author, and other metadata -->
   <meta name="description" content="This is an example web page">
-
-  <!-- The <style> element is used to define internal CSS -->
-  <style>
-      body {
-          font-family: Arial, sans-serif;
-      }
-  </style>
-
-  <!-- The <script> element is used to define client-side JavaScript -->
-  <script>
-      function greet() {
-          prompt("Hello, World!")
-      }
-  </script>
+  <style>  
+      body {font-family: Arial, sans-serif;}
+  </style>   <!-- The <style> element is used to define internal CSS -->
+  <script> 
+      function greet() {prompt("Hello, World!")}
+  </script>   <!-- The <script> element is used to define client-side JavaScript -->
 </head>
 
-
-  <!-- Body section containing the visible content -->
-  <body>
-    <!-- Header section -->
-    <header>
-      <!-- Main heading -->
-      <h1>This is a title</h1>
+  <body><!-- Body section containing the visible content -->
+    
+    <header> <!-- Header section -->
+      <h1>This is a title</h1> 
     </header>
-
-    <!-- Navigation section -->
-    <nav>
-      <!-- Unordered list for navigation menu -->
-      <ul>
-        <!-- List items for menu options -->
-        <li><a href="#">Page1</a></li>
-        <!-- # can be used to for referece to a page tht does not exist yet -->
-        <li><a href="#">Page2</a></li>
+ 
+    <nav>  <!-- Navigation section -->      
+      <ul> <!-- Unordered list for navigation menu -->      
+        <li><a href="#">Page1</a></li>   <!-- List items for menu options -->        
+        <li><a href="#">Page2</a></li> <!-- # can be used to for referece to a page tht does not exist yet -->
         <li><a href="#">Page3</a></li>
       </ul>
     </nav>
 
-    <!-- Main content section -->
-    <main>
-      <!-- Article section -->
-      <article>
-        <!-- Article heading -->
-        <h2>Article Title</h2>
-        <!-- Paragraph -->
-        <p>This is a paragraph of text.</p>
-      </article>
-
-      <!-- Aside section for related content -->
-      <aside>
-        <!-- Aside heading -->
-        <h3>Related Links</h3>
-        <!-- Ordered list -->
-        <ol>
-          <!-- List items -->
-          <li><a href="#">Link 1</a></li>
+    
+    <main> <!-- Main content section -->      
+      <article>   <!-- Article section -->        
+        <h2>Article Title</h2> <!-- Article heading -->       
+        <p>This is a paragraph of text.</p>  <!-- Paragraph -->
+      </article>     
+      
+      <aside> <!-- Aside section for related content -->       
+        <h3>Related Links</h3>  <!-- Aside heading -->       
+        <ol>  <!-- Ordered list -->          
+          <li><a href="#">Link 1</a></li> <!-- List items -->
           <li><a href="#">Link 2</a></li>
         </ol>
       </aside>
     </main>
 
     <!-- Examples of common attributes -->
+    <div id="unique-identifier">This is a div with an id</div> <!-- The id attribute specifies a unique id for an HTML element -->
+    <p class="highlight important">This is a paragraph with classes</p> <!-- The class attribute specifies one or more class names for an HTML element -->   
+    <span style="color: blue; font-weight: bold;">This is a span with inline style</span> <!-- The style attribute specifies an inline style for an element -->   
+    <p title="This is a tooltip">Hover over me to see the title tooltip</p> <!-- The title attribute provides additional information about an element -->   
+    <div data-user-id="123" data-role="admin">Custom data attributes</div> <!-- The data- attribute allows you to store custom data within the HTML -->   
+    <a href="#" accesskey="h">Home (Press Alt + h)</a> <!-- The accesskey attribute specifies a shortcut key to activate/focus an element --> 
+    <p lang="es">Hola, ¿cómo estás?</p> <!-- The lang attribute specifies the language of the element's content -->    
+    <p translate="no">Do not translate this text</p> <!-- The translate attribute specifies whether the content should be translated --> 
+    <p dir="rtl">This text will be right-to-left</p> <!-- The dir attribute specifies the text direction -->
 
-    <!-- The id attribute specifies a unique id for an HTML element -->
-    <div id="unique-identifier">This is a div with an id</div>
-
-    <!-- The class attribute specifies one or more class names for an HTML element -->
-    <p class="highlight important">This is a paragraph with classes</p>
-
-    <!-- The style attribute specifies an inline style for an element -->
-    <span style="color: blue; font-weight: bold;">This is a span with inline style</span>
-
-    <!-- The title attribute provides additional information about an element -->
-    <p title="This is a tooltip">Hover over me to see the title tooltip</p>
-
-    <!-- The data- attribute allows you to store custom data within the HTML -->
-    <div data-user-id="123" data-role="admin">Custom data attributes</div>
-
-    <!-- The accesskey attribute specifies a shortcut key to activate/focus an element -->
-    <a href="#" accesskey="h">Home (Press Alt + h)</a>
-
-    <!-- The lang attribute specifies the language of the element's content -->
-    <p lang="es">Hola, ¿cómo estás?</p>
-
-    <!-- The translate attribute specifies whether the content should be translated -->
-    <p translate="no">Do not translate this text</p>
-
-    <!-- The dir attribute specifies the text direction -->
-    <p dir="rtl">This text will be right-to-left</p>
-
-
-    <!-- Footer section -->
-    <footer>
-      <!-- Paragraph for copyright information -->
-      <p>© 2024 Cizco Syntaxis for HTML. All rights reserved.</p>
+    <footer>     <!-- Footer section -->   
+      <p>© 2024 Cizco Syntaxis for HTML. All rights reserved.</p>    <!-- Paragraph for copyright information -->
     </footer>
+    
   </body>
 </html>
