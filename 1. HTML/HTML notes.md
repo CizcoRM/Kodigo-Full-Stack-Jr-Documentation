@@ -1,5 +1,20 @@
 # HTML Basics
 
+## Table of Contents
+
+- [HTML Basics](#html-basics)
+  - [Table of Contents](#table-of-contents)
+  - [**What is HTML?**](#what-is-html)
+  - [**- Basic HTML structure**](#--basic-html-structure)
+  - [**- Common Attributes**](#--common-attributes)
+    - [Identifier: The id attribute](#identifier-the-id-attribute)
+    - [Classes: The class attribute](#classes-the-class-attribute)
+    - [Inline Styles: The style attribute](#inline-styles-the-style-attribute)
+    - [**- Other Attributes**](#--other-attributes)
+    - [- Obsolete Tags](#--obsolete-tags)
+    - [TAGS](#tags)
+    - [- `<head>` Document Header tags](#--head-document-header-tags)
+
 ## **What is HTML?**
 
 HTML (HyperText Markup Language) is the standard language used to create and design documents on the World Wide Web. **HTML uses a system of tags and attributes** to define different parts of the document, making it possible to format and display content in a structured and visually appealing way.
@@ -27,6 +42,29 @@ HTML (HyperText Markup Language) is the standard language used to create and des
 - **Commentary** ignored by the browser, used to explain and document the code.
 
     `<!-- This is a commentary -->`
+
+## **- Basic HTML structure**
+
+The document structure is divided into **three parts.** **Document type `<**!DOCTYPE html>`. Then, we open the **`<html>`** tag that will contain two main parts: the document **header** **`<head>`** and the document **body** **`<body>`**.
+
+``` HTML
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+   <title>Títule</title>
+   <meta charset="utf8">
+ </head>
+ <body>
+   ...
+ </body>
+</html>
+```
+
+`<!DOCTYPE html>`  It must always be specified so that the browser knows what type of HTML document it is.
+
+**`<head>`** is not a visual part of the web page, but a part of where certain metadata tags are included for good SEO.
+
+**`<body>`** All the visual elements of a page are located inside the tag.
 
 ## **- Common Attributes**
 
@@ -60,29 +98,6 @@ There can be elements with the same class in a document and a tag can have multi
 It is used in HTML tags to embed CSS code directly in the tag itself. However, in most cases, it is not recommended to add the styles in this way but to place the CSS code in a separate `.css` document of our HTML document.
 
 `<span style="color: blue; font-weight: bold;">This is a span with inline style</span>`
-
-## **- Basic HTML structure**
-
-The document structure is divided into **three parts.** **Document type `<**!DOCTYPE html>`. Then, we open the **`<html>`** tag that will contain two main parts: the document **header** **`<head>`** and the document **body** **`<body>`**.
-
-``` HTML
-<!DOCTYPE html>
-<html lang="es">
- <head>
-   <title>Títule</title>
-   <meta charset="utf8">
- </head>
- <body>
-   ...
- </body>
-</html>
-```
-
-`<!DOCTYPE html>`  It must always be specified so that the browser knows what type of HTML document it is.
-
-**`<head>`** is not a visual part of the web page, but a part of where certain metadata tags are included for good SEO.
-
-**`<body>`** All the visual elements of a page are located inside the tag.
 
 ### **- Other Attributes**
 
@@ -133,3 +148,4 @@ There are several tags that can be used in the `<head>` section of the HTML docu
 | `<meta>` | ✅ `<head>` ❌ `<body>` | Sets a specific metadata in the current document. See meta tag |
 | `<style>` | ✅ `<head>` ✅ `<body>` | Creates CSS styles that will only affect the current document. |
 | `<script>` | ✅ `<head>` ✅ `<body>` | Indicates a script to load or execute on the current page. |
+
