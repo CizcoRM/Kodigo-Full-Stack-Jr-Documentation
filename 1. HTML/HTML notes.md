@@ -12,8 +12,8 @@
     - [Inline Styles: The style attribute](#inline-styles-the-style-attribute)
   - [**- Other Attributes**](#--other-attributes)
   - [**- Obsolete Tags**](#--obsolete-tags)
-  - [**TAGS**](#tags)
-    - [`<head>` Document Header tags](#head-document-header-tags)
+  - [**HTML TAGS**](#html-tags)
+    - [**`<head>` Document Header tags**](#head-document-header-tags)
       - [**The `<title>` tag**](#the-title-tag)
       - [**The `<meta>` tag**](#the-meta-tag)
       - [**Google Indexing Metadata**](#google-indexing-metadata)
@@ -23,12 +23,12 @@
       - [**Aditional information or data**](#aditional-information-or-data)
       - [**Types of resources**](#types-of-resources)
     - [**HTML Grouping Tags**](#html-grouping-tags)
-      - [**Paragraph of text**](#paragraph-of-text)
-      - [**Main Content**](#main-content)
-      - [**Thematic separation of the text**](#thematic-separation-of-the-text)
+      - [**Main Content `<main>`**](#main-content-main)
+      - [**Paragraph of text `<p>`**](#paragraph-of-text-p)
+      - [**Thematic separation of the text `<hr>`**](#thematic-separation-of-the-text-hr)
       - [**Dividers `<div>`**](#dividers-div)
-      - [**List of elements**](#list-of-elements)
-      - [**Quotes and citations**](#quotes-and-citations)
+      - [**List of elements `<ul>` `<ol>`**](#list-of-elements-ul-ol)
+      - [**Quotes and citations `<blockquote>`**](#quotes-and-citations-blockquote)
 ## **What is HTML?**
 
 HTML (HyperText Markup Language) is the standard language used to create and design documents on the World Wide Web. **HTML uses a system of tags and attributes** to define different parts of the document, making it possible to format and display content in a structured and visually appealing way.
@@ -148,9 +148,9 @@ It is used in HTML tags to embed CSS code directly in the tag itself. However, i
 | `<spacer>` | Inserts a horizontal space. |   |
 | `<tt>` | Displays text with a monospaced font. | `<code>` |
 
-## **TAGS**
+## **HTML TAGS**
 
-### `<head>` Document Header tags
+### **`<head>` Document Header tags**
 
 There are several tags that can be used in the `<head>` section of the HTML document.
 
@@ -345,14 +345,7 @@ A tag that contains a group of tags related in some way. Although it is not mand
   <p>This is a second paragraph.</p>
 </div>
 ```
-
-#### **Paragraph of text**
-
-The HTML `<p>` tag is used to group paragraphs of text.
-
-`<p>This would be a paragraph of text.</p>`
-
-#### **Main Content**
+#### **Main Content `<main>`**
 
 The HTML `<main>` tag is a tag that allows us to group all the main content of a page. In principle, an HTML document should only have one `<main>` tag.
 
@@ -383,7 +376,13 @@ There are situations where multiple `<main>` elements can exist. These situation
 </body>
 ```
 
-#### **Thematic separation of the text**
+#### **Paragraph of text `<p>`**
+
+The HTML `<p>` tag is used to group paragraphs of text.
+
+`<p>This would be a paragraph of text.</p>`
+
+#### **Thematic separation of the text `<hr>`**
 
 The HTML `<hr>` tag is used to indicate a thematic separation of the text to establish a separation between contents.
 
@@ -426,7 +425,7 @@ There are other sementic tags that can be used instead of `<div>`:
 - `<main>`: Represents the main content of a document.
 - `<figure>`: Represents self-contained content, potentially with an optional caption, which is specified using the `<figcaption>` element.
 
-#### **List of elements**
+#### **List of elements `<ul>` `<ol>`**
 
 If we need to make a list of items, we can use the `<ul>` tag for unordered lists and the `<ol>` tag for ordered lists. In both lists, we can use the `<li>` tag to define each item.
 
@@ -443,7 +442,7 @@ If we need to make a list of items, we can use the `<ul>` tag for unordered list
 </ol>
 ```
 
-#### **Quotes and citations**
+#### **Quotes and citations `<blockquote>`**
 
 The `<blockquote>` tag is used to indicate a quote or citation.
 
